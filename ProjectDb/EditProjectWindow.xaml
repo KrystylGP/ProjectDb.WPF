@@ -1,0 +1,40 @@
+﻿<Window x:Class="ProjectDb.EditProjectWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Redigera Projekt" Height="400" Width="400">
+    <Grid>
+        <StackPanel Orientation="Vertical" Margin="20">
+            <TextBlock Text="Projektnummer:" />
+            <TextBox Name="ProjectNumberTextBox" IsReadOnly="True"/>
+
+            <TextBlock Text="Projektnamn:" />
+            <TextBox Name="ProjectNameTextBox" />
+
+            <TextBlock Text="Startdatum:" />
+            <TextBox Name="StartDateTextBox" />
+
+            <TextBlock Text="Slutdatum:" />
+            <TextBox Name="EndDateTextBox" />
+
+            <TextBlock Text="Projektansvarig:" />
+            <TextBox Name="ProjectManagerTextBox" />
+
+            <TextBlock Text="Tjänster:" />
+            <TextBox Name="ServiceTextBox" />
+
+            <TextBlock Text="Totalpris:" />
+            <TextBox Name="TotalPriceTextBox" />
+
+            <TextBlock Text="Status:" />
+            <ComboBox Name="ProjectStatusComboBox">
+                <ComboBoxItem Content="Ej påbörjad"/>
+                <ComboBoxItem Content="Pågående"/>
+                <ComboBoxItem Content="Avslutad"/>
+            </ComboBox>
+
+            
+            <Button Name="SaveButton" Content="Spara" Click="SaveButton_Click" Margin="5"/>
+            <Button Name="CancelButton" Content="Avbryt" Click="CancelButton_Click" Margin="5"/>
+        </StackPanel>
+    </Grid>
+</Window>
