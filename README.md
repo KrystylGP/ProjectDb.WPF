@@ -18,5 +18,7 @@ Lista alla projekt
 Uppdatera projekt
 
 <img width="332" alt="image" src="https://github.com/user-attachments/assets/af66304f-19c8-478a-a0a7-a1e0953e551c" />
+
 <img width="286" alt="image" src="https://github.com/user-attachments/assets/f69f079e-8d49-4438-9111-7ca2992e9b0c" />
+
 Observera att projektnummer inte kan uppdateras (låst i både front/backend), men visas så att man vet vilket projekt man uppdaterar.
