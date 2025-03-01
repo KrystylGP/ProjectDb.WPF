@@ -1,7 +1,7 @@
 # ProjectDb-Solution
 Author: krystyl.geraldizo@yh.nackademin.se
 
-Min första databas-projekt med CRUD operationer med EF av SQLite
+Min första databas-projekt innegående CRUD operationer, använder EF core med SQLite
 Entiteter: Projekt samt Customer.
 Se tabeller samt relation nedan:
 ![image](https://github.com/user-attachments/assets/f064baf5-5500-4720-8406-809c62f6fbb5)
